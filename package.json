@@ -1,0 +1,28 @@
+{
+  "name": "geohasher",
+  "description": "GeoHash Algorithm first described by Gustavo Niemeyer in February 2008.  By interleaving latitude and longitude information in a bitwise fashion, a composite value is generated that provides a high resolution geographic point, and is well suited for storage or transmission as a character string.",
+  "keywords": [
+    "geocode",
+    "geohash",
+    "geolocation"
+  ],
+  "author": "Jackson Tian",
+  "version": "0.0.1",
+  "main": "lib/geohasher",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JacksonTian/geohash-js.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JacksonTian/geohash-js/issues"
+  },
+  "homepage": "https://github.com/JacksonTian/geohash-js"
+}

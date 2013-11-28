@@ -1,10 +1,7 @@
 <html>
 <head>
   <title>geohash demonstrator</title>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOxozwb2gfH-ItGS3ntqHUyt-75HCfVTo&amp;sensor=true"></script>
-  <script src="./geohash.js"></script>
-  <script src="./labeledmarker.js"></script>
-  <script src="./geohash-demo.js"></script>
+   <script src="./geohash-demo.js" type="text/javascript"/>
 <style>
 body {
   font-family: 'Helvetica';
@@ -30,16 +27,15 @@ a {color: #3199ee;text-decoration:none} a:hover {color:#fa0;}a img{border: 0;}
   <div style="background: #000; height: 90px; padding: 15px;" id="header">
     <input type="text" value="1600 Pennsylvania Ave, Washington, DC" id="address" name="address" size="50">
     <input type="text" value="" id="geoHash" name="geoHash">
-
-    <select id="hashResolution" name="hashResolution">
-      <option>3
-      <option>4
-      <option selected>5
-      <option>6
-      <option>7
-      <option>8
-    </select>
-
+<select id="hashResolution" name="hashResolution">
+  <option>3
+  <option>4
+  <option selected>5
+  <option>6
+  <option>7
+  <option>8
+</select>
+    
     <input type="button" value="plot" onClick="geocodeAddress();">
     <input type="button" value="clear" onClick="cleanUp();">
     <div id="boxList"></div>
@@ -49,6 +45,6 @@ a {color: #3199ee;text-decoration:none} a:hover {color:#fa0;}a img{border: 0;}
     <a href="http://github.com/davetroy/geohash-js/tree/master" target="new">source code</a><br>
     &copy; 2008 David Troy
   </div>
-  <div id="map"></div>
+  <div id="map"/>
 </body>
 </html>
