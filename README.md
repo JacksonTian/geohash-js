@@ -69,11 +69,11 @@ var hash = GeoHasher.encode(38.897, -77.036); // dqcjr0bp7n74
 ```
 
 ## License
-Geohash Javascript Demonstration 
-(c) 2008 David Troy 
-(c) 2010 Chris Williams 
-(c) 2013 Jackson Tian 
+Geohash Javascript Demonstration  
+(c) 2008 David Troy  
+(c) 2010 Chris Williams  
+(c) 2013 Jackson Tian  
 
-Refactored to CommonJS module by Chris Williams (c) 2010 
-Fix global vars by Jackson Tian (c) 2013 
+Refactored to CommonJS module by Chris Williams (c) 2010  
+Fix global vars by Jackson Tian (c) 2013  
 Released under the MIT License
