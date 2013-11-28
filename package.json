@@ -10,7 +10,6 @@
   "version": "0.0.1",
   "main": "lib/geohasher",
   "directories": {
-    "example": "example",
     "test": "test"
   },
   "scripts": {
@@ -18,11 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/JacksonTian/geohash-js.git"
+    "url": "git://github.com/JacksonTian/geohasher.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JacksonTian/geohash-js/issues"
+    "url": "https://github.com/JacksonTian/geohasher/issues"
   },
-  "homepage": "https://github.com/JacksonTian/geohash-js"
+  "homepage": "https://github.com/JacksonTian/geohasher",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  }
 }
